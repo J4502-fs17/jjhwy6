@@ -8,6 +8,7 @@ p {
   color: white;
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Merriweather Sans', sans-serif;
+  line-height: 10px;
 }
 
 h1 {

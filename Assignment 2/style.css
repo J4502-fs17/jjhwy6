@@ -5,18 +5,21 @@
 }*/
 
 p {
-  color: black;
+  color: white;
   /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: 'Merriweather Sans', sans-serif;
 }
 
 h1 {
-  /*font-family: Georgia, "Times New Roman", serif;*/
-  font-family: 'Merriweather', serif;
+  font-family: Georgia, "Times New Roman", serif;
+  color: white;
+  background-color: blue;
+  line-height: 90px;
 }
 
 body {
-  background-color: #ebe3c3;
+  background-color: black;
+  text-align: center;
 }
 
 #container {
@@ -56,6 +59,6 @@ body {
 }
 
 #nav a:hover, #nav a:active {
-  background-color: #7a991a;
+  background-color: yellow;
   text-decoration: underline;
 }

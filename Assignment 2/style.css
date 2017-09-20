@@ -13,7 +13,7 @@ p {
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
-  color: white;
+  color: lavender;
   background-color: blue;
   line-height: 90px;
 }
@@ -54,7 +54,7 @@ img {
 
 #nav a:link {
   display: block;
-  color: #ffffff;
+  color: lavender;
   background-color: black;
   font-weight: bold;
   text-align: center;
@@ -64,6 +64,7 @@ img {
 }
 
 #nav a:hover, #nav a:active {
-  background-color: yellow;
+  background-color: blue;
+  color: yellow;
   text-decoration: underline;
 }

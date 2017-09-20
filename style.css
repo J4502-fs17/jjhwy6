@@ -13,8 +13,8 @@ p {
 
 h1 {
   font-family: Georgia, "Times New Roman", serif;
-  color: lavender;
-  background-color: blue;
+  color: #b0e0e6;
+  background-color: #9370db;
   line-height: 90px;
 }
 
@@ -44,6 +44,10 @@ img {
   margin-top: 5px;
 }
 
+.style {
+  font-style: italic;
+}
+
 #nav {
   padding: 0;
 }
@@ -60,15 +64,13 @@ img {
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
   padding: 4px;
-  text-decoration: none;
-}
-
-#nav a:hover, #nav a:active {
-  background-color: blue;
-  color: yellow;
   text-decoration: underline;
 }
 
+#nav a:hover, #nav a:active {
+  background-color: lavender;
+}
+
 #nav a:visited {
-  color: red;
+  color: blue;
 }

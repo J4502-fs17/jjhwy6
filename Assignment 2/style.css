@@ -22,6 +22,10 @@ body {
   text-align: center;
 }
 
+ul {
+  list-style-type: none; 
+}
+
 #container {
   /*margin-top: 0;
   margin-right: auto;

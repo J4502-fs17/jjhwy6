@@ -54,7 +54,7 @@ img {
 
 #nav a:link {
   display: block;
-  color: lavender;
+  color: purple;
   background-color: black;
   font-weight: bold;
   text-align: center;
@@ -67,4 +67,8 @@ img {
   background-color: blue;
   color: yellow;
   text-decoration: underline;
+}
+
+#nav a:visited {
+  color: red;
 }

@@ -1,0 +1,119 @@
+/*styles go here*/
+
+/*p {
+  color: red;
+}*/
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: #414142;
+}
+
+p {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  color:#FFE993;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  color: #9DA699;
+  text-align: center;
+}
+
+#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav a:link {
+  display: block;
+  color: #ffffff;
+  background-color: #9DA699;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+
+#nav a:hover, #nav a:active, {
+  background-color: #7a991a;
+  text-decoration: underline;
+}
+
+#nav a:visited {
+  color: white;
+}
+
+.photo {
+  width: 100%;
+}
+
+.caption {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-style: italic;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.photo_aside {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.activist_name {
+  font-family: 'Merriweather', Georgia, "Times New Roman", serif;
+  font-style: none;
+  text-align: center;
+}
+
+.quote {
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+/*
+#box {
+  position: fixed;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}*/
+
+
+/*
+#box {
+  width: 200px;
+  top: 0px;
+  right: 60px;
+  position: fixed;
+  margin-top: -10px;
+  padding-top: 10px;
+}*/
+
+
+
+/*Sticky position box layout example
+
+.box {
+  background-color: #ccc;
+  position: sticky;
+  width: 200px;
+  top: 20px;
+}*/

@@ -1,0 +1,101 @@
+/*styles go here*/
+
+/*p {
+  color: red;
+}*/
+
+p {
+  color: white;
+  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 10px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #b0e0e6;
+  background-color: #9370db;
+  line-height: 90px;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+image {
+    display: block;
+}
+@media screen and (min-width:800px) {
+    img {
+    float:left;
+    }
+}
+
+img {
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+}
+
+.caption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.style {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+}
+
+#nav {
+  padding: 0;
+}
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav a:link {
+  display: block;
+  color: purple;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 4px;
+  text-decoration: underline;
+}
+
+#nav a:hover, #nav a:active {
+  background-color: lavender;
+}
+
+#nav a:visited {
+  color: blue;
+}

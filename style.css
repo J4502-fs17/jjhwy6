@@ -15,11 +15,12 @@ h1 {
 p {
   color: white;
   font-family: 'Merriweather Sans', sans-serif;
+  font-size: 15px;
 }
 
 img {
   border-style: none;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 2px 10px;
   width: 90%;
 }
 
@@ -29,9 +30,12 @@ img {
 
 .caption {
   font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
   font-style: italic;
   text-align: right;
   margin-top: 5px;
+  margin-right: 10px;
+  color: white;
 }
 
 .style {
@@ -61,8 +65,9 @@ img {
 }
 
 #nav li {
-  padding: 3px;
+  padding: 5px 10px 5px 10px;
   display: inline-flex;
+  font-size: 15px;
 }
 
 #nav a:link {
@@ -98,7 +103,7 @@ img {
   grid-area: d;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
 
     .photos {
       display: grid;
@@ -115,7 +120,7 @@ img {
     }
 
     img {
-    float:none;
+    float:left;
     width: 90%;
     margin: 10px 10px 10px 10px;
     }

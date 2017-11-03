@@ -97,9 +97,7 @@ img {
 }
 
 @media screen (max-width: 350px) {
-    body {
-
-    }
+  
     img {
     float:none;
     padding: 0;

@@ -111,6 +111,21 @@ img {
 
 @media (max-width: 450px) {
 
+    img {
+    float:left;
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+    }
+
+    .avatar {
+      width: 150px;
+    }
+
+    .container {
+  		flex-direction: column;
+  		flex-wrap: wrap;
+  	}
+
     .photos {
       display: grid;
       grid-template-columns: 1fr;
@@ -121,20 +136,7 @@ img {
       "c"
       "d";
     }
-    .avatar {
-      width: 150px;
-    }
 
-    img {
-    float:left;
-    width: 90%;
-    margin: 10px 10px 10px 10px;
-    }
-
-    .container {
-  		flex-direction: column;
-  		flex-wrap: wrap;
-  	}
     #nav li {
       padding: 4px;
       display: flex;

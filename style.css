@@ -65,6 +65,25 @@ img {
   width: 2em;
 }
 
+.body-p {
+  text-align: left;
+}
+
+.map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-wrapper iframe {
+    left:0;
+    top:0;
+    height:70%;
+    width:50%;
+    position:absolute;
+}
+
 #nav {
   padding: 0;
   list-style-type: none;
@@ -90,7 +109,7 @@ img {
 }
 
 #nav a:visited {
-  color: blue;
+  color: #b0e0e6;
 }
 
 #photo1 {
